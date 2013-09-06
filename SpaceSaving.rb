@@ -1,3 +1,7 @@
+# HeavyHitter algorithm
+#
+# 
+
 class SpaceSaving
   @max_entries=1000  
   attr_accessor :counts,:errors
@@ -6,7 +10,7 @@ class SpaceSaving
     @counts={}
     @errors={}
   end
-  #Add a value in the array
+  # Add a value in the array
   def add_entry value,inc_count=1
      count=@counts[value]
      if count==nil   #newentry
